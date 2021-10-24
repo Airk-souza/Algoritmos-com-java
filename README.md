@@ -1,7 +1,7 @@
 <h1>Algoritmos e lógica de programação</h1>
 
 <h4>Exercícios de lógica de programação na linguagem Java,<br>
-focando em struturas de repetição.</h4>
+focando em estruturas básicas.</h4>
 
 
 <hr>
