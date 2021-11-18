@@ -66,26 +66,26 @@ public class Exe09 {
             mediaIdadeH = (float)(somaidadeHomens / homens);
             somaGeralPessoas = (mulheres + homens);
             percenT = ((float)(faixaEtaria * 100) / somaGeralPessoas);
-             mediaIdadeGeral = ((float)(somaIdadeMulheres+somaidadeHomens)/somaGeralPessoas);
-             mediaAlturaGeral = ((float)(somaAlturaHomens+somaAlturaMulheres)/somaGeralPessoas);
+            mediaIdadeGeral = ((float)(somaIdadeMulheres+somaidadeHomens)/somaGeralPessoas);
+            mediaAlturaGeral = ((float)(somaAlturaHomens+somaAlturaMulheres)/somaGeralPessoas);
         }else{
-                System.out.println("Saindo do sistema!");
-            }
-
-            System.out.println("\n=====================================\n");
-            System.out.println("Medias dos homens: ");
-            System.out.printf("Media de idades: %.2f anos.", mediaIdadeH);
-            System.out.printf("\nMedia de Altura: %.2f metros. \n", mediaAltH);
-            System.out.println("\n=====================================\n");
-            System.out.println("Medias das mulheres: ");
-            System.out.printf("Media de idades: %.2f anos.", mediaIdadeF);
-            System.out.printf("\nMedia de Altura: %.2f metros.", mediaAltF);
-            System.out.println("\n=====================================\n");
-            System.out.printf("\nMedia de idade geral: %.2f. anos" ,mediaIdadeGeral);
-            System.out.printf("\nMedia de altura geral: %.2f. metros" ,mediaAlturaGeral);
-            System.out.println("\nPessoas entrevistadas: "+ somaGeralPessoas);
-            System.out.printf("Porcentagem de pessoas entre 18 e 35: %.2f%%.", percenT);
-            System.out.println("\n=====================================\n");
-
+            System.out.println("Saindo do sistema!");
         }
+
+        System.out.println("\n=====================================\n");
+        System.out.println("Medias dos homens: ");
+        System.out.printf("Media de idades: %.2f anos.", mediaIdadeH);
+        System.out.printf("\nMedia de Altura: %.2f metros. \n", mediaAltH);
+        System.out.println("\n=====================================\n");
+        System.out.println("Medias das mulheres: ");
+        System.out.printf("Media de idades: %.2f anos.", mediaIdadeF);
+        System.out.printf("\nMedia de Altura: %.2f metros.", mediaAltF);
+        System.out.println("\n=====================================\n");
+        System.out.printf("\nMedia de idade geral: %.2f. anos" ,mediaIdadeGeral);
+        System.out.printf("\nMedia de altura geral: %.2f. metros" ,mediaAlturaGeral);
+        System.out.println("\nPessoas entrevistadas: "+ somaGeralPessoas);
+        System.out.printf("Porcentagem de pessoas entre 18 e 35: %.2f%%.", percenT);
+        System.out.println("\n=====================================\n");
+
+    }
 }

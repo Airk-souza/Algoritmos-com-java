@@ -7,6 +7,7 @@ public class Exercicio03 {
         int nota, somaNota = 0, codigo;
         float media;
         Scanner read = new Scanner(System.in);
+
         System.out.println("Digite o código: ");
         codigo = read.nextInt();
 

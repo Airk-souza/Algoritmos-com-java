@@ -6,21 +6,21 @@ public class Exe04 {
             int numero, somaNumero=0, contador=0;
             float media;
         Scanner read = new Scanner(System.in);
-        System.out.println("Digite um número: ");
-        numero = read.nextInt();
+
 
         do {
+            System.out.println("Digite um número: ");
+            numero = read.nextInt();
             if (numero % 2 == 0) {
                 somaNumero = numero + somaNumero;
                 contador++;
             } else {
                 System.out.println("O número digitado é um número impar!");
             }
-            System.out.println("Digite um número: ");
-            numero = read.nextInt();
+
         }while (numero!=0);
 
-        media = (float) somaNumero / contador;
+        media = (float) (somaNumero / contador);
 
         if (media > 0) {
             System.out.printf("Média: %.2f", media);

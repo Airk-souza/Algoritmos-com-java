@@ -12,6 +12,7 @@ public class Exe10 {
         double peso, mediaIdades;
 
         for (int i = 1; i <=7; i++){
+
             System.out.println("Digite sua idade: ");
              idade = read.nextInt();
              somaIdades += idade;
@@ -23,7 +24,6 @@ public class Exe10 {
             }
 
         }
-
         mediaIdades = ((float)somaIdades/7);
 
         System.out.println("Pessoas com mais de noventa quilos: "+maisNoventa);
